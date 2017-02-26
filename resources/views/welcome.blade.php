@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Achievety - Be proud to be you!</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -75,9 +75,22 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    ACHIEVETY
                 </div>
-
+                <div>
+                    Schneller Erfolg! (1-10 Minuten)
+                </div>
+                <div>
+                    5 in einer Reihe (tägl. Mo-Fr)
+                </div>
+                <div>
+                    Epische Aufgabe (30 Tage tägl. Mo-Fr, 6 Monate 1 mal die Woche) [z.b.: Kaffeemaschine reinigen Wochentag egal, aber halt 1 mal pro Woche]
+                </div>
+                <div>
+                    Lebenswerk (Eine Aufgabe die 12 Monate läuft) [etwas was 1 mal die Woche gemacht wird oder 1 mal im Monat]
+                    
+                </div>
+                <!--
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
@@ -85,6 +98,7 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+                -->
             </div>
         </div>
     </body>

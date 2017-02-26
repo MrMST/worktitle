@@ -26,4 +26,12 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+    
+    /**
+     * The products that belong to the shop.
+     */
+    public function activities()
+    {
+        return $this->belongsToMany('App\activity', 'user_activity_pivot');
+    }
 }
