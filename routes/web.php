@@ -30,8 +30,8 @@ Route::group(['middleware' => ['auth']], function () {
     $this->get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm');
     $this->post('password/reset', 'Auth\ResetPasswordController@reset');
 
-    Route::post('/home', 'HomeController@addActivity');
-    Route::get('/home', 'HomeController@index');
+    Route::post('/home', 'Member\HomeController@addActivity');
+    Route::get('/home', 'Member\HomeController@index');
     
     Route::post('/activities', 'ActivityController@addActivity');
     Route::get('/activities', 'ActivityController@index');

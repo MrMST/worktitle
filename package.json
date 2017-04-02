@@ -1,4 +1,7 @@
 {
+  "name": "worktitle",
+  "version": "0.0.2",
+  "description": "A tool to use and have fun",
   "private": true,
   "scripts": {
     "prod": "gulp --production",

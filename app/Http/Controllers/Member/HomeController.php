@@ -1,8 +1,9 @@
-<?phpß
+<?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Member;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 use App\Activity;
 
 class HomeController extends Controller
